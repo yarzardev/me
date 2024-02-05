@@ -8,6 +8,19 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+@font-face {
+  font-family: "burton";
+  src: url('../../public/Burtons.otf');
+}
+
+@font-face {
+  font-family: "dancing";
+  src: url('../../public/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
